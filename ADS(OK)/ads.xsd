@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<xs:schema id="NewDataSet" targetNamespace="http://tempuri.org/ads.xsd" xmlns:mstns="http://tempuri.org/ads.xsd" xmlns="http://tempuri.org/ads.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="Setting">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="RomFile" type="xs:string" minOccurs="0" />
+        <xs:element name="PortName" type="xs:string" minOccurs="0" />
+        <xs:element name="BaudRate" type="xs:string" minOccurs="0" />
+        <xs:element name="DataBit" type="xs:string" minOccurs="0" />
+        <xs:element name="Parity" type="xs:string" minOccurs="0" />
+        <xs:element name="StopBits" type="xs:string" minOccurs="0" />
+        <xs:element name="FlowControl" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="ko-KR" msdata:EnforceConstraints="False">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="Setting" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

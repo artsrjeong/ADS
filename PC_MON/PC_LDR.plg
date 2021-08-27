@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PC_LDR - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\srjeong\LOCALS~1\Temp\RSP86.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/PC_LDR.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\pda\ADS\PC_MON\PC_LDRView.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\srjeong\LOCALS~1\Temp\RSP86.tmp" 
+Creating temporary file "D:\DOCUME~1\srjeong\LOCALS~1\Temp\RSP87.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/PC_LDR.pdb" /debug /machine:I386 /out:"Debug/PC_LDR.exe" /pdbtype:sept 
+.\Debug\Comm.obj
+.\Debug\DataInDlg.obj
+.\Debug\Led.obj
+.\Debug\MainFrm.obj
+.\Debug\MyListCtrl.obj
+.\Debug\PC_LDR.obj
+.\Debug\PC_LDRDoc.obj
+.\Debug\PC_LDRView.obj
+.\Debug\StdAfx.obj
+.\Debug\PC_LDR.res
+]
+Creating command line "link.exe @D:\DOCUME~1\srjeong\LOCALS~1\Temp\RSP87.tmp"
+<h3>Output Window</h3>
+Compiling...
+PC_LDRView.cpp
+d:\pda\ads\pc_mon\mintr.h(242) : warning C4101: 'cd' : unreferenced local variable
+d:\pda\ads\pc_mon\mintr.h(301) : warning C4101: 'cd' : unreferenced local variable
+D:\pda\ADS\PC_MON\PC_LDRView.cpp(730) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/PC_LDR.bsc"  .\Debug\StdAfx.sbr .\Debug\Comm.sbr .\Debug\DataInDlg.sbr .\Debug\Led.sbr .\Debug\MainFrm.sbr .\Debug\MyListCtrl.sbr .\Debug\PC_LDR.sbr .\Debug\PC_LDRDoc.sbr .\Debug\PC_LDRView.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+PC_LDR.exe - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>

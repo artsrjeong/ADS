@@ -1,0 +1,10 @@
+﻿<Setting>
+    <RomFile>D:\ESMI\App\LEL.ROM</RomFile>
+    <PortName>COM1</PortName>
+    <BaudRate>9600</BaudRate>
+    <DataBit>8</DataBit>
+    <Parity>None</Parity>
+    <StopBits>1</StopBits>
+    <FlowControl>None</FlowControl>
+    <ReUse>true</ReUse>
+</Setting>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Setting xmlns="http://tempuri.org/ads.xsd">
+    <RomFile>\\Windows\\database\\kkk.txt</RomFile>
+    <PortName>COM1:</PortName>
+    <BaudRate>115200</BaudRate>
+    <DataBit>8</DataBit>
+    <Parity>0</Parity>
+    <StopBits>1</StopBits>
+    <FlowControl>1</FlowControl>
+</Setting>

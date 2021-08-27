@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TCD xmlns="http://tempuri.org/TCD.xsd">
+	<TCD_LIST>
+		<TCD_CODE>32</TCD_CODE>
+		<TCD_CONTENT>Inverter 고장1</TCD_CONTENT>
+		<TCD_REF>전원 Off후 Reset1</TCD_REF>
+	</TCD_LIST>
+	<TCD_LIST>
+		<TCD_CODE>2</TCD_CODE>
+		<TCD_CONTENT>Inverter 고장2</TCD_CONTENT>
+		<TCD_REF>전원 Off후 Reset2</TCD_REF>
+	</TCD_LIST>
+	<TCD_LIST>
+		<TCD_CODE>33</TCD_CODE>
+		<TCD_CONTENT>Inverter 고장3</TCD_CONTENT>
+		<TCD_REF>전원 Off후 Reset3</TCD_REF>
+	</TCD_LIST>
+	<TCD_LIST>
+		<TCD_CODE>34</TCD_CODE>
+		<TCD_CONTENT>Inverter 고장4</TCD_CONTENT>
+		<TCD_REF>전원 Off후 Reset4</TCD_REF>
+	</TCD_LIST>
+	<TCD_LIST>
+		<TCD_CODE>35</TCD_CODE>
+		<TCD_CONTENT>Inverter 고장5</TCD_CONTENT>
+		<TCD_REF>전원 Off후 Reset5</TCD_REF>
+	</TCD_LIST>
+	<TCD_LIST>
+		<TCD_CODE>36</TCD_CODE>
+		<TCD_CONTENT>Inverter 고장6</TCD_CONTENT>
+		<TCD_REF>전원 Off후 Reset6</TCD_REF>
+	</TCD_LIST>
+</TCD>

@@ -1,0 +1,55 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{20D4826A-C6FA-45DB-90F4-C717570B9F32}") = "ADS", "ADS.csdproj", "{E7DB106E-263C-4C9D-A215-4B88628E294B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialTest", "..\..\jsr\C#\C#serial\SerialTest.csproj", "{A85FE14C-ACC1-4336-B907-2DB8BE92146B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGD", "..\..\焙包府\NGD\NGD.csproj", "{F7F4E051-3AF6-483C-B4DA-04760650EAB3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pi_jsr", "..\..\焙包府\PI_JSR\PI_JSR.vcproj", "{266D570A-20CE-4491-9344-93DE0B4E3951}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COGSD", "..\..\焙包府\COGSD\COGSD.csproj", "{9765AF65-8B11-443D-B408-6A17FD8ABEEB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E7DB106E-263C-4C9D-A215-4B88628E294B}.Debug.ActiveCfg = Debug|Windows CE
+		{E7DB106E-263C-4C9D-A215-4B88628E294B}.Debug.Build.0 = Debug|Windows CE
+		{E7DB106E-263C-4C9D-A215-4B88628E294B}.Debug.Deploy.0 = Debug|Windows CE
+		{E7DB106E-263C-4C9D-A215-4B88628E294B}.Release.ActiveCfg = Release|Windows CE
+		{E7DB106E-263C-4C9D-A215-4B88628E294B}.Release.Build.0 = Release|Windows CE
+		{E7DB106E-263C-4C9D-A215-4B88628E294B}.Release.Deploy.0 = Release|Windows CE
+		{A85FE14C-ACC1-4336-B907-2DB8BE92146B}.Debug.ActiveCfg = Debug|.NET
+		{A85FE14C-ACC1-4336-B907-2DB8BE92146B}.Debug.Build.0 = Debug|.NET
+		{A85FE14C-ACC1-4336-B907-2DB8BE92146B}.Release.ActiveCfg = Release|.NET
+		{A85FE14C-ACC1-4336-B907-2DB8BE92146B}.Release.Build.0 = Release|.NET
+		{F7F4E051-3AF6-483C-B4DA-04760650EAB3}.Debug.ActiveCfg = Debug|.NET
+		{F7F4E051-3AF6-483C-B4DA-04760650EAB3}.Debug.Build.0 = Debug|.NET
+		{F7F4E051-3AF6-483C-B4DA-04760650EAB3}.Release.ActiveCfg = Release|.NET
+		{F7F4E051-3AF6-483C-B4DA-04760650EAB3}.Release.Build.0 = Release|.NET
+		{266D570A-20CE-4491-9344-93DE0B4E3951}.Debug.ActiveCfg = Debug|Win32
+		{266D570A-20CE-4491-9344-93DE0B4E3951}.Debug.Build.0 = Debug|Win32
+		{266D570A-20CE-4491-9344-93DE0B4E3951}.Release.ActiveCfg = Release|Win32
+		{266D570A-20CE-4491-9344-93DE0B4E3951}.Release.Build.0 = Release|Win32
+		{9765AF65-8B11-443D-B408-6A17FD8ABEEB}.Debug.ActiveCfg = Debug|.NET
+		{9765AF65-8B11-443D-B408-6A17FD8ABEEB}.Debug.Build.0 = Debug|.NET
+		{9765AF65-8B11-443D-B408-6A17FD8ABEEB}.Release.ActiveCfg = Release|.NET
+		{9765AF65-8B11-443D-B408-6A17FD8ABEEB}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

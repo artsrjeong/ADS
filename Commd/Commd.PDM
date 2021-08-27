@@ -1,0 +1,502 @@
+[Root]
+Most Recent Package=Commd Setup Package
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Prj2001\Commd-NT(0508)\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Prj2001\Commd-NT(0508)\Commd.exe=Yes
+D:\WINNT\system32\MSVBVM60.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINNT\system32\VB6KO.DLL=Yes
+D:\WINNT\system32\MSCOMCTL.OCX=Yes
+D:\WINNT\system32\MSCMCKO.DLL=Yes
+D:\WINNT\system32\COMDLG32.OCX=Yes
+D:\WINNT\system32\CMDLGKO.DLL=Yes
+D:\WINNT\system32\MSFLXGRD.OCX=Yes
+D:\WINNT\system32\FLXGDKO.DLL=Yes
+D:\WINNT\system32\TABCTL32.OCX=Yes
+D:\WINNT\system32\TABCTKO.DLL=Yes
+D:\WINNT\system32\MSWINSCK.OCX=Yes
+D:\WINNT\system32\WINSKKO.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Prj2001\Commd-NT(0508)\Commd.exe=$(AppPath)
+D:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\VB6KO.DLL=$(WinSysPath)
+D:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\WINNT\system32\MSCMCKO.DLL=$(WinSysPath)
+D:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+D:\WINNT\system32\CMDLGKO.DLL=$(WinSysPath)
+D:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+D:\WINNT\system32\FLXGDKO.DLL=$(WinSysPath)
+D:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+D:\WINNT\system32\TABCTKO.DLL=$(WinSysPath)
+D:\WINNT\system32\MSWINSCK.OCX=$(WinSysPath)
+D:\WINNT\system32\WINSKKO.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Prj2001\Commd-NT(0508)\Commd.exe=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=GEMIS - Commd
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=GEMIS
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|GEMIS]
+Icon1=CommD.exe
+Title1=Commd
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Prj2001\Commd-NT(0508)\Package
+ProjectFolder=C:\Prj2001\Commd-NT(0508)
+ServerSideCab=
+File1=C:\Prj2001\Commd-NT(0508)\Package\setup.exe
+File2=C:\Prj2001\Commd-NT(0508)\Package\Setup.Lst
+File3=C:\Prj2001\Commd-NT(0508)\Package\CommD.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Package Commd|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Prj2001\Commd-NT(0509)\Package
+
+[Package|Package Commd|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Package Commd|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Package Commd|Files Found]
+
+[Package|Package Commd|Files Released]
+
+[Package|Package Commd|Missing Dependency Information]
+
+[Package|Package Commd|Out-of-Date Dependency Information]
+
+[Package|Package Commd|Files Added]
+
+[Package|Package Commd|Files Removed]
+d:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+
+[Package|Package Commd|Files In Project]
+C:\Prj2001\Commd-NT(0509)\Commd.exe=Yes
+D:\WINNT\system32\MSVBVM60.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINNT\system32\VB6KO.DLL=Yes
+D:\WINNT\system32\MSCOMCTL.OCX=Yes
+D:\WINNT\system32\MSCMCKO.DLL=Yes
+D:\WINNT\system32\COMDLG32.OCX=Yes
+D:\WINNT\system32\CMDLGKO.DLL=Yes
+D:\WINNT\system32\MSFLXGRD.OCX=Yes
+D:\WINNT\system32\FLXGDKO.DLL=Yes
+D:\WINNT\system32\TABCTL32.OCX=Yes
+D:\WINNT\system32\TABCTKO.DLL=Yes
+D:\WINNT\system32\MSWINSCK.OCX=Yes
+D:\WINNT\system32\WINSKKO.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Package Commd|Configure Registry Files]
+Applicable=No
+
+[Package|Package Commd|Configure Remote Servers]
+Applicable=No
+
+[Package|Package Commd|Install Locations]
+C:\Prj2001\Commd-NT(0509)\Commd.exe=$(AppPath)
+D:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\VB6KO.DLL=$(WinSysPath)
+D:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\WINNT\system32\MSCMCKO.DLL=$(WinSysPath)
+D:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+D:\WINNT\system32\CMDLGKO.DLL=$(WinSysPath)
+D:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+D:\WINNT\system32\FLXGDKO.DLL=$(WinSysPath)
+D:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+D:\WINNT\system32\TABCTKO.DLL=$(WinSysPath)
+D:\WINNT\system32\MSWINSCK.OCX=$(WinSysPath)
+D:\WINNT\system32\WINSKKO.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Package Commd|Configure Shared Files]
+Applicable=Yes
+C:\Prj2001\Commd-NT(0509)\Commd.exe=No
+
+[Package|Package Commd|Distribution]
+Type=single
+Size=
+Title=GEMIS - Commd
+
+[Package|Package Commd|IconGroups]
+Group0=GEMIS
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Package Commd|GEMIS]
+Icon1=CommD.exe
+Title1=Commd
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Package Commd|Package]
+PackageFolder=C:\Prj2001\Commd-NT(0509)\Package
+ProjectFolder=C:\Prj2001\Commd-NT(0509)
+ServerSideCab=
+File1=C:\Prj2001\Commd-NT(0509)\Package\setup.exe
+File2=C:\Prj2001\Commd-NT(0509)\Package\Setup.Lst
+File3=C:\Prj2001\Commd-NT(0509)\Package\CommD.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Prj2001\Commd-NT(0509)\Package
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 2|Files Added]
+
+[Package|Standard Setup Package 2|Files Removed]
+d:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+
+[Package|Standard Setup Package 2|Files In Project]
+C:\Prj2001\Commd-NT(0509)\Commd.exe=Yes
+D:\WINNT\system32\MSVBVM60.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINNT\system32\VB6KO.DLL=Yes
+D:\WINNT\system32\MSCOMCTL.OCX=Yes
+D:\WINNT\system32\MSCMCKO.DLL=Yes
+D:\WINNT\system32\COMDLG32.OCX=Yes
+D:\WINNT\system32\CMDLGKO.DLL=Yes
+D:\WINNT\system32\MSFLXGRD.OCX=Yes
+D:\WINNT\system32\FLXGDKO.DLL=Yes
+D:\WINNT\system32\TABCTL32.OCX=Yes
+D:\WINNT\system32\TABCTKO.DLL=Yes
+D:\WINNT\system32\MSWINSCK.OCX=Yes
+D:\WINNT\system32\WINSKKO.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+C:\Prj2001\Commd-NT(0509)\Commd.exe=$(AppPath)
+D:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\VB6KO.DLL=$(WinSysPath)
+D:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\WINNT\system32\MSCMCKO.DLL=$(WinSysPath)
+D:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+D:\WINNT\system32\CMDLGKO.DLL=$(WinSysPath)
+D:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+D:\WINNT\system32\FLXGDKO.DLL=$(WinSysPath)
+D:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+D:\WINNT\system32\TABCTKO.DLL=$(WinSysPath)
+D:\WINNT\system32\MSWINSCK.OCX=$(WinSysPath)
+D:\WINNT\system32\WINSKKO.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+C:\Prj2001\Commd-NT(0509)\Commd.exe=No
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=GEMIS - Commd
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=GEMIS
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|GEMIS]
+Icon1=CommD.exe
+Title1=Commd
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=C:\Prj2001\Commd-NT(0509)\Package
+ProjectFolder=C:\Prj2001\Commd-NT(0509)
+ServerSideCab=
+File1=C:\Prj2001\Commd-NT(0509)\Package\setup.exe
+File2=C:\Prj2001\Commd-NT(0509)\Package\Setup.Lst
+File3=C:\Prj2001\Commd-NT(0509)\Package\CommD.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Commd Setup Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=f:\GEMIS\Commd\Setup
+
+[Package|Commd Setup Package|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Commd Setup Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Commd Setup Package|Files Found]
+
+[Package|Commd Setup Package|Files Released]
+Readme.txt=
+
+[Package|Commd Setup Package|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+
+[Package|Commd Setup Package|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\TABCTL32.OCX=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINNT\system32\COMDLG32.OCX=
+C:\WINNT\system32\MSCOMCTL.OCX=
+C:\WINNT\system32\TABCTL32.OCX=
+
+[Package|Commd Setup Package|Files Added]
+
+[Package|Commd Setup Package|Files Removed]
+d:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+
+[Package|Commd Setup Package|Files In Project]
+F:\GEMIS\Commd\Commd.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\VB6KO.DLL=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSCMCko.DLL=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\CMDLGKO.DLL=Yes
+C:\WINNT\system32\MSFLXGRD.OCX=Yes
+C:\WINNT\system32\FLXGDKO.DLL=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\WINNT\system32\TABCTKO.DLL=Yes
+C:\WINNT\system32\MSWINSCK.OCX=Yes
+C:\WINNT\system32\WINSKKO.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Commd Setup Package|Configure Registry Files]
+Applicable=No
+
+[Package|Commd Setup Package|Configure Remote Servers]
+Applicable=No
+
+[Package|Commd Setup Package|Install Locations]
+F:\PRJ-2001\Commd-NT(0515)\Commd.exe=$(AppPath)
+D:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\VB6KO.DLL=$(WinSysPath)
+D:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\WINNT\system32\MSCMCKO.DLL=$(WinSysPath)
+D:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+D:\WINNT\system32\CMDLGKO.DLL=$(WinSysPath)
+D:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+D:\WINNT\system32\FLXGDKO.DLL=$(WinSysPath)
+D:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+D:\WINNT\system32\TABCTKO.DLL=$(WinSysPath)
+D:\WINNT\system32\MSWINSCK.OCX=$(WinSysPath)
+D:\WINNT\system32\WINSKKO.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\PRJ-2001\Commd-NT(0517)\Commd.exe=$(AppPath)
+F:\PRJ-2001\Commd\Commd-NT(1114)\Commd.exe=$(AppPath)
+F:\PRJ-2001\Commd\Commd-NT(1114)\Readme.txt=$(AppPath)
+D:\GEMIS\Commd\Commd.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6ko.DLL=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCKO.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGKO.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\FLXGDKO.DLL=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTKO.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\WINSKKO.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\GEMIS\Commd\Commd.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\WINNT\system32\VB6KO.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCMCko.DLL=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\CMDLGKO.DLL=$(WinSysPath)
+C:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\FLXGDKO.DLL=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTKO.DLL=$(WinSysPath)
+C:\WINNT\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINNT\system32\WINSKKO.DLL=$(WinSysPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+
+[Package|Commd Setup Package|Configure Shared Files]
+Applicable=Yes
+F:\PRJ-2001\Commd-NT(0515)\Commd.exe=No
+F:\PRJ-2001\Commd-NT(0517)\Commd.exe=No
+F:\PRJ-2001\Commd\Commd-NT(1114)\Commd.exe=No
+F:\PRJ-2001\Commd\Commd-NT(1114)\Readme.txt=No
+D:\GEMIS\Commd\Commd.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+F:\GEMIS\Commd\Commd.exe=Yes
+
+[Package|Commd Setup Package|Distribution]
+Type=single
+Size=
+Title=GEMIS - Commd Setup Program
+
+[Package|Commd Setup Package|Package]
+PackageFolder=f:\GEMIS\Commd\Setup
+ProjectFolder=F:\GEMIS\Commd
+ServerSideCab=
+File1=f:\GEMIS\Commd\Setup\setup.exe
+File2=f:\GEMIS\Commd\Setup\Setup.Lst
+File3=f:\GEMIS\Commd\Setup\CommD.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Commd Setup Package|IconGroups]
+Group0=GEMIS
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Commd Setup Package|GEMIS]
+Icon1=CommD.exe
+Title1=Commd
+StartIn1=$(AppPath)
+Key1=Icon1

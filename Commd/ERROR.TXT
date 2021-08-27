@@ -1,0 +1,23 @@
+Public Const OK_SUCCESS = 1
+Public Const OK_ESMI_REC_EXIST = 2  ' ESMI_DAT..T_TROUBLE에 동일한 접수번호 존재 - 독촉인 경우
+Public Const OK_THRETHOULD = 10     ' 성공으로 판단하는 기준값
+
+' 파일 관련 고장
+Public Const ERR_NOT_EXIST = 101    ' 파일이 존재하지 않음
+Public Const ERR_VERSION = 102      ' 현재 Version 처리 불가
+Public Const ERR_CODE_CARID = 103   ' CODE_CARID 존재 안함
+Public Const ERR_CODE_CURR = 104    ' CODE_CURR 존재 안함
+Public Const ERR_CODE_LAST = 105    ' CODE_LAST 존재 안함
+Public Const ERR_CODE_TRHT = 106    ' CODE_TRHT 존재 안함
+Public Const ERR_CODE_FNST = 107    ' CODE_FNST 존재 안함
+Public Const ERR_CODE_ERST = 108    ' CODE_ERST 존재 안함
+
+' 정보센터
+Public Const ERR_SIC_NOT_EXIST = 301        ' 고장이 발생한 관리번호에 대해 정보센터 DB에 고객정보가 존재하지 않음
+Public Const ERR_SIC_NOT_EXIST_RECNO = 302  ' 접수번호가 안따짐
+
+' 원격감시
+Public Const ERR_REM_TRBO_FAIL = 401        ' 고장 접수번호 생성 실패
+Public Const ERR_REM_TRBS_FAIL = 402        ' 고장상태 입력 실패
+Public Const ERR_REM_TRBl_FAIL = 403        ' 고장 Log 입력 실패
+Public Const ERR_REM_TRBH_FAIL = 404        ' 고장 HISTORY 입력 실패

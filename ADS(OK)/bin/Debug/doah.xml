@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Group>																				
+<Group_list>	<Group_inx>	0x11	</Group_inx>	<Group_id>	D	</Group_id>	<Group_des>	인버터 운전 상태	</Group_des>	<Index>	01	</Index>	<Description>	출력전압		</Description>	<Unit>	V	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x11	</Group_inx>	<Group_id>	D	</Group_id>	<Group_des>	인버터 운전 상태	</Group_des>	<Index>	02	</Index>	<Description>	출력전류		</Description>	<Unit>	A	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x11	</Group_inx>	<Group_id>	D	</Group_id>	<Group_des>	인버터 운전 상태	</Group_des>	<Index>	03	</Index>	<Description>	출력주파수		</Description>	<Unit>	Hz	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x11	</Group_inx>	<Group_id>	D	</Group_id>	<Group_des>	인버터 운전 상태	</Group_des>	<Index>	04	</Index>	<Description>	S/W Version		</Description>	<Unit>	-	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x11	</Group_inx>	<Group_id>	D	</Group_id>	<Group_des>	인버터 운전 상태	</Group_des>	<Index>	05	</Index>	<Description>	메인 Loop Time		</Description>	<Unit>	-	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x11	</Group_inx>	<Group_id>	D	</Group_id>	<Group_des>	인버터 운전 상태	</Group_des>	<Index>	06	</Index>	<Description>	1msec Loop Time		</Description>	<Unit>	-	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x11	</Group_inx>	<Group_id>	D	</Group_id>	<Group_des>	인버터 운전 상태	</Group_des>	<Index>	07	</Index>	<Description>	Open Time		</Description>	<Unit>	sec	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x11	</Group_inx>	<Group_id>	D	</Group_id>	<Group_des>	인버터 운전 상태	</Group_des>	<Index>	08	</Index>	<Description>	Close Time		</Description>	<Unit>	sec	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x11	</Group_inx>	<Group_id>	D	</Group_id>	<Group_des>	인버터 운전 상태	</Group_des>	<Index>	09	</Index>	<Description>	주파수 지령		</Description>	<Unit>	Hz	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x11	</Group_inx>	<Group_id>	D	</Group_id>	<Group_des>	인버터 운전 상태	</Group_des>	<Index>	10	</Index>	<Description>	DC Link전압		</Description>	<Unit>	V	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x11	</Group_inx>	<Group_id>	D	</Group_id>	<Group_des>	인버터 운전 상태	</Group_des>	<Index>	11	</Index>	<Description>	엔코더 값		</Description>	<Unit>	-	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x11	</Group_inx>	<Group_id>	D	</Group_id>	<Group_des>	인버터 운전 상태	</Group_des>	<Index>	12	</Index>	<Description>	엔코더 값(1만단위자리)		</Description>	<Unit>	-	</Unit>	</Group_list>
+																				
+																				
+																				
+																				
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	01	</Index>	<Description>	Close 개시위치		</Description>	<Unit>	-	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	02	</Index>	<Description>	Close 초기주파수		</Description>	<Unit>	Hz	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	03	</Index>	<Description>	Close 주행주파수		</Description>	<Unit>	Hz	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	04	</Index>	<Description>	Close Creep 개시위치		</Description>	<Unit>	-	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	05	</Index>	<Description>	Close Creep주파수		</Description>	<Unit>	Hz	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	06	</Index>	<Description>	Clost 유지주파수		</Description>	<Unit>	Hz	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	07	</Index>	<Description>	Open 개시위치		</Description>	<Unit>	-	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	08	</Index>	<Description>	Open 초기주파수		</Description>	<Unit>	Hz	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	09	</Index>	<Description>	Open 주행주파수		</Description>	<Unit>	Hz	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	10	</Index>	<Description>	Open Creep 개시위치		</Description>	<Unit>	-	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	11	</Index>	<Description>	Open Creep주파수		</Description>	<Unit>	Hz	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	12	</Index>	<Description>	Open 유지주파수		</Description>	<Unit>	Hz	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	13	</Index>	<Description>	Close 가속시간		</Description>	<Unit>	sec	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	14	</Index>	<Description>	Close 감속시간		</Description>	<Unit>	sec	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	15	</Index>	<Description>	Open 가속시간		</Description>	<Unit>	sec	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	16	</Index>	<Description>	Open 감속시간		</Description>	<Unit>	sec	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	17	</Index>	<Description>	S-CL1		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	18	</Index>	<Description>	S-CL2		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	19	</Index>	<Description>	S-CL3		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	20	</Index>	<Description>	S-CL4		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	21	</Index>	<Description>	S-OP1		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	22	</Index>	<Description>	S-OP2		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	23	</Index>	<Description>	S-OP3		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	24	</Index>	<Description>	S-OP4		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	25	</Index>	<Description>	Reopen 가속시간		</Description>	<Unit>	sec	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	26	</Index>	<Description>	Reopen 감속시간		</Description>	<Unit>	sec	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	27	</Index>	<Description>	OLS 전압 1		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	28	</Index>	<Description>	OLS 전압 2		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	29	</Index>	<Description>	CLS 전압 1		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	30	</Index>	<Description>	CLS 전압 2		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x12	</Group_inx>	<Group_id>	S	</Group_id>	<Group_des>	도어 설정 그룹	</Group_des>	<Index>	31	</Index>	<Description>	SES 위치		</Description>	<Unit>	-	</Unit>	</Group_list>
+																				
+																				
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	01	</Index>	<Description>	Init Mode		</Description>	<Unit>		</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	02	</Index>	<Description>	시스템 Type		</Description>	<Unit>	-	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	03	</Index>	<Description>	도어폭 서치 주파수		</Description>	<Unit>	Hz	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	04	</Index>	<Description>	CL 구간 1 전압보정		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	05	</Index>	<Description>	CL 구간 2 전압보정		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	06	</Index>	<Description>	CL 구간 3 전압보정		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	07	</Index>	<Description>	CL 구간 4 전압보정		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	08	</Index>	<Description>	CL 구간 5 전압보정		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	09	</Index>	<Description>	CL 구간 6 전압보정		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	10	</Index>	<Description>	CL 구간 7 전압보정		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	11	</Index>	<Description>	OP 구간 1 전압보정		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	12	</Index>	<Description>	OP 구간 2 전압보정		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	13	</Index>	<Description>	OP 구간 3 전압보정		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	14	</Index>	<Description>	OP 구간 4 전압보정		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	15	</Index>	<Description>	OP 구간 5 전압보정		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	16	</Index>	<Description>	OP 구간 6 전압보정		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	17	</Index>	<Description>	OP 구간 7 전압보정		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	18	</Index>	<Description>	ROP 가속 전압보정		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	19	</Index>	<Description>	ROP 감속 전압보정		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	20	</Index>	<Description>	DC Break 값		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	21	</Index>	<Description>	Cmd In Filter		</Description>	<Unit>	-	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	22	</Index>	<Description>	Pos In Filter		</Description>	<Unit>	-	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	23	</Index>	<Description>	Door Enc		</Description>	<Unit>	-	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	24	</Index>	<Description>	SBD Init		</Description>	<Unit>	-	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	25	</Index>	<Description>	Soft Lock		</Description>	<Unit>	-	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	26	</Index>	<Description>	방향지령		</Description>	<Unit>	-	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	27	</Index>	<Description>	Run Src		</Description>	<Unit>	-	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	28	</Index>	<Description>	Stop Mode		</Description>	<Unit>	-	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	29	</Index>	<Description>	Start Freq		</Description>	<Unit>	Hz	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	30	</Index>	<Description>	Max Freq		</Description>	<Unit>	Hz	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	31	</Index>	<Description>	Base Freq		</Description>	<Unit>	Hz	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	32	</Index>	<Description>	Base V		</Description>	<Unit>	V	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	33	</Index>	<Description>	Vout Gain		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	34	</Index>	<Description>	Boost Qty		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	35	</Index>	<Description>	Boost Hz		</Description>	<Unit>	%	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	36	</Index>	<Description>	Asr P Gain		</Description>	<Unit>	-	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	37	</Index>	<Description>	Asr I Gain		</Description>	<Unit>	-	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	38	</Index>	<Description>	Restart Mode		</Description>	<Unit>	-	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	39	</Index>	<Description>	Restart OK Time		</Description>	<Unit>	sec	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	40	</Index>	<Description>	Resetart Delay Time		</Description>	<Unit>	sec	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	41	</Index>	<Description>	ETH Level		</Description>	<Unit>		</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	42	</Index>	<Description>	과부하제한 모드		</Description>	<Unit>		</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	43	</Index>	<Description>	과부한제한 레벨		</Description>	<Unit>		</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	44	</Index>	<Description>	과부한제한 상수		</Description>	<Unit>		</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	45	</Index>	<Description>	스위칭 주파수		</Description>	<Unit>		</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	46	</Index>	<Description>	모터 정격전류		</Description>	<Unit>		</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	47	</Index>	<Description>	모터 Pole		</Description>	<Unit>		</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	48	</Index>	<Description>	정격 Slip		</Description>	<Unit>		</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	49	</Index>	<Description>	자동상수추정		</Description>	<Unit>		</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	50	</Index>	<Description>	모터 I0		</Description>	<Unit>		</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	51	</Index>	<Description>	모터 R1		</Description>	<Unit>		</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	52	</Index>	<Description>	모터 R2		</Description>	<Unit>		</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	53	</Index>	<Description>	모터 L		</Description>	<Unit>		</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x13	</Group_inx>	<Group_id>	F	</Group_id>	<Group_des>	인버터 설정 그룹	</Group_des>	<Index>	54	</Index>	<Description>	모터 Lsigma		</Description>	<Unit>		</Unit>	</Group_list>
+																				
+																				
+																				
+																				
+<Group_list>	<Group_inx>	0x14	</Group_inx>	<Group_id>	T	</Group_id>	<Group_des>	에러상태 표시 그룹	</Group_des>	<Index>	01	</Index>	<Description>	에러종류		</Description>	<Unit>	-	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x14	</Group_inx>	<Group_id>	T	</Group_id>	<Group_des>	에러상태 표시 그룹	</Group_des>	<Index>	02	</Index>	<Description>	에러시 출력주파수		</Description>	<Unit>	Hz	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x14	</Group_inx>	<Group_id>	T	</Group_id>	<Group_des>	에러상태 표시 그룹	</Group_des>	<Index>	03	</Index>	<Description>	에러시 출력 전류		</Description>	<Unit>	A	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x14	</Group_inx>	<Group_id>	T	</Group_id>	<Group_des>	에러상태 표시 그룹	</Group_des>	<Index>	04	</Index>	<Description>	에러시 DC Link단 전압		</Description>	<Unit>	V	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x14	</Group_inx>	<Group_id>	T	</Group_id>	<Group_des>	에러상태 표시 그룹	</Group_des>	<Index>	05	</Index>	<Description>	이전 1 에러종류		</Description>	<Unit>	-	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x14	</Group_inx>	<Group_id>	T	</Group_id>	<Group_des>	에러상태 표시 그룹	</Group_des>	<Index>	06	</Index>	<Description>	이전 1 에러시 출력주파수		</Description>	<Unit>	Hz	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x14	</Group_inx>	<Group_id>	T	</Group_id>	<Group_des>	에러상태 표시 그룹	</Group_des>	<Index>	07	</Index>	<Description>	이전 1 에러시 출력 전류		</Description>	<Unit>	A	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x14	</Group_inx>	<Group_id>	T	</Group_id>	<Group_des>	에러상태 표시 그룹	</Group_des>	<Index>	08	</Index>	<Description>	이전 1 에러시 DC Link단 전압		</Description>	<Unit>	V	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x14	</Group_inx>	<Group_id>	T	</Group_id>	<Group_des>	에러상태 표시 그룹	</Group_des>	<Index>	09	</Index>	<Description>	이전 2 에러종류		</Description>	<Unit>	-	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x14	</Group_inx>	<Group_id>	T	</Group_id>	<Group_des>	에러상태 표시 그룹	</Group_des>	<Index>	10	</Index>	<Description>	이전 2 에러시 출력주파수		</Description>	<Unit>	Hz	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x14	</Group_inx>	<Group_id>	T	</Group_id>	<Group_des>	에러상태 표시 그룹	</Group_des>	<Index>	11	</Index>	<Description>	이전 2 에러시 출력 전류		</Description>	<Unit>	A	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x14	</Group_inx>	<Group_id>	T	</Group_id>	<Group_des>	에러상태 표시 그룹	</Group_des>	<Index>	12	</Index>	<Description>	이전 2 에러시 DC Link단 전압		</Description>	<Unit>	V	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x14	</Group_inx>	<Group_id>	T	</Group_id>	<Group_des>	에러상태 표시 그룹	</Group_des>	<Index>	13	</Index>	<Description>	이전 3 에러종류		</Description>	<Unit>	-	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x14	</Group_inx>	<Group_id>	T	</Group_id>	<Group_des>	에러상태 표시 그룹	</Group_des>	<Index>	14	</Index>	<Description>	이전 3 에러시 출력주파수		</Description>	<Unit>	Hz	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x14	</Group_inx>	<Group_id>	T	</Group_id>	<Group_des>	에러상태 표시 그룹	</Group_des>	<Index>	15	</Index>	<Description>	이전 3 에러시 출력 전류		</Description>	<Unit>	A	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x14	</Group_inx>	<Group_id>	T	</Group_id>	<Group_des>	에러상태 표시 그룹	</Group_des>	<Index>	16	</Index>	<Description>	이전 3 에러시 DC Link단 전압		</Description>	<Unit>	V	</Unit>	</Group_list>
+<Group_list>	<Group_inx>	0x14	</Group_inx>	<Group_id>	T	</Group_id>	<Group_des>	에러상태 표시 그룹	</Group_des>	<Index>	17	</Index>	<Description>	에러 카운트		</Description>	<Unit>		</Unit>	</Group_list>
+</Group>																				

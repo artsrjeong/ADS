@@ -1,0 +1,55 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESMIDownLoad", "..\..\..\GEMIS\ESMIDownLoad\ESMIDownLoad.csproj", "{D352FD51-4CDB-4C13-B3F6-033DE3E7E302}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{20D4826A-C6FA-45DB-90F4-C717570B9F32}") = "ADS", "ADS.csdproj", "{E7DB106E-263C-4C9D-A215-4B88628E294B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdmdown", "..\..\..\GEMIS\mdmdown\mdmdown.csproj", "{981B16E8-8422-4211-931B-1A552C361926}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCT", "..\..\..\PSTEK\pct\PCT.csproj", "{6CC1E413-5657-423B-9910-2D76AE72994D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dd", "..\..\..\temp\dd\dd.csproj", "{A6036073-126E-4AD9-863D-9A6D28984AD7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D352FD51-4CDB-4C13-B3F6-033DE3E7E302}.Debug.ActiveCfg = Debug|.NET
+		{D352FD51-4CDB-4C13-B3F6-033DE3E7E302}.Debug.Build.0 = Debug|.NET
+		{D352FD51-4CDB-4C13-B3F6-033DE3E7E302}.Release.ActiveCfg = Release|.NET
+		{D352FD51-4CDB-4C13-B3F6-033DE3E7E302}.Release.Build.0 = Release|.NET
+		{E7DB106E-263C-4C9D-A215-4B88628E294B}.Debug.ActiveCfg = Debug|Windows CE
+		{E7DB106E-263C-4C9D-A215-4B88628E294B}.Debug.Build.0 = Debug|Windows CE
+		{E7DB106E-263C-4C9D-A215-4B88628E294B}.Debug.Deploy.0 = Debug|Windows CE
+		{E7DB106E-263C-4C9D-A215-4B88628E294B}.Release.ActiveCfg = Release|Windows CE
+		{E7DB106E-263C-4C9D-A215-4B88628E294B}.Release.Build.0 = Release|Windows CE
+		{E7DB106E-263C-4C9D-A215-4B88628E294B}.Release.Deploy.0 = Release|Windows CE
+		{981B16E8-8422-4211-931B-1A552C361926}.Debug.ActiveCfg = Debug|.NET
+		{981B16E8-8422-4211-931B-1A552C361926}.Debug.Build.0 = Debug|.NET
+		{981B16E8-8422-4211-931B-1A552C361926}.Release.ActiveCfg = Release|.NET
+		{981B16E8-8422-4211-931B-1A552C361926}.Release.Build.0 = Release|.NET
+		{6CC1E413-5657-423B-9910-2D76AE72994D}.Debug.ActiveCfg = Debug|.NET
+		{6CC1E413-5657-423B-9910-2D76AE72994D}.Debug.Build.0 = Debug|.NET
+		{6CC1E413-5657-423B-9910-2D76AE72994D}.Release.ActiveCfg = Release|.NET
+		{6CC1E413-5657-423B-9910-2D76AE72994D}.Release.Build.0 = Release|.NET
+		{A6036073-126E-4AD9-863D-9A6D28984AD7}.Debug.ActiveCfg = Debug|.NET
+		{A6036073-126E-4AD9-863D-9A6D28984AD7}.Debug.Build.0 = Debug|.NET
+		{A6036073-126E-4AD9-863D-9A6D28984AD7}.Release.ActiveCfg = Release|.NET
+		{A6036073-126E-4AD9-863D-9A6D28984AD7}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
